@@ -30,16 +30,9 @@ const contactInfo = [
     description: "We reply within 24 hours",
   },
   {
-    icon: MapPin,
-    title: "Address",
-    value: "123 Clean Street, Suite 100",
-    href: "https://maps.google.com/?q=123+Clean+Street",
-    description: "Springfield, IL 62701",
-  },
-  {
     icon: Clock,
     title: "Business Hours",
-    value: "Mon - Sat: 7AM - 7PM",
+    value: "Mon - Sat: 10AM - 5PM",
     href: null,
     description: "Sunday: By appointment",
   },
@@ -92,7 +85,7 @@ export default function ContactSection() {
 
         <div className="grid lg:grid-cols-2 gap-12 items-start">
           {/* Contact Cards */}
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-3 gap-4">
             {contactInfo.map((item, index) => (
               <Card
                 key={item.title}
@@ -128,24 +121,8 @@ export default function ContactSection() {
             ))}
           </div>
 
-          {/* Map & Social */}
+          {/* Social & CTA */}
           <div className="space-y-6">
-            {/* Map Embed */}
-            <Card className="overflow-hidden border-border">
-              <div className="relative h-[300px] bg-muted">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3105.1234567890123!2d-89.6501481!3d39.7817213!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDQ2JzU0LjIiTiA4OcKwMzknMDAuNSJX!5e0!3m2!1sen!2sus!4v1234567890123"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Hello Sparkle Location"
-                  className="absolute inset-0"
-                />
-              </div>
-            </Card>
 
             {/* Social Links */}
             <Card className="border-border">

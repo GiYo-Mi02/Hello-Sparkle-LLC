@@ -3,7 +3,6 @@ import { CheckCircle, ArrowRight } from "lucide-react";
 
 const highlights = [
   "100% Satisfaction Guaranteed",
-  "Eco-Friendly Products",
   "Licensed & Insured",
 ];
 
@@ -38,8 +37,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0 animate-fade-in-up animation-delay-200">
-              Hello Sparkle delivers exceptional cleaning services for homes
-              and businesses. Experience the difference of a truly clean space.
+              Experience exceptional cleaning services. We deliver the difference of a truly clean space.
             </p>
 
             {/* Highlights */}

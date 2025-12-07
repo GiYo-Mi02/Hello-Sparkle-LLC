@@ -27,18 +27,18 @@ const services = [
     image: "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?w=600&q=80",
   },
   {
-    icon: Brush,
-    title: "Carpet & Upholstery",
+    icon: Building2,
+    title: "Dealership Cleaning",
     description:
-      "Specialized cleaning for carpets, rugs, and upholstered furniture to remove stains and refresh fabrics.",
-    image: "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=600&q=80",
+      "Specialized cleaning services for car dealerships, ensuring showrooms and facilities maintain a professional, pristine appearance.",
+    image: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&q=80",
   },
   {
-    icon: Wind,
-    title: "Window Cleaning",
+    icon: Building2,
+    title: "New Construction Cleaning",
     description:
-      "Crystal-clear window cleaning for both interior and exterior surfaces, streak-free guaranteed.",
-    image: "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?w=600&q=80",
+      "Post-construction cleanup services to prepare newly built spaces for occupancy, removing debris and ensuring move-in readiness.",
+    image: "https://images.unsplash.com/photo-1504307651254-35680f356dfd?w=600&q=80",
   },
   {
     icon: ShieldCheck,

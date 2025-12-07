@@ -41,7 +41,7 @@ export default function Footer() {
               attention to detail.
             </p>
             <p className="text-white/50 text-sm">
-              Licensed & Insured | Eco-Friendly Products | 100% Satisfaction
+              Licensed & Insured | 100% Satisfaction
               Guaranteed
             </p>
           </div>
